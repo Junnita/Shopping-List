@@ -1,4 +1,4 @@
-ocument.addEventListener('DOMContentLoaded'), function() {
+document.addEventListener('DOMContentLoaded'), function() {
     const shoppingForm = document.getElementById('shopping-form');
     const shoppingList = document.getElementById('shopping-list');
     const clearButton = document.getElementById('clear-button');
