@@ -1,0 +1,126 @@
+body{
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-color: black;
+	
+	
+	
+	
+	
+
+}
+h1 {
+	font-size: 64px;
+	color: white;
+	font-weight: bolder;
+
+}
+.shop{
+	font-size: 64px;
+	color: lime;
+	font-weight: lighter;
+	font-style: italic;
+	align-items: top;
+
+}
+h1:hover {
+	color: hotpink;
+	
+
+}
+#shopping-form{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+}
+#shopping-form input{
+	height:40px;
+	width:100px;
+	padding: 10px  20px 10px 20px;
+	background-color: white;
+	border-radius: 10px;
+	padding-top: 0px 0px 0px 0px;
+	border-radius: 25px12;
+	
+}
+#shopping-form button{
+	padding: 5px 10px 5px 10px;
+	font-size: 19px;
+	font-weight:900;
+	width:100px;
+	height: 50px;
+	border-radius: 5px;
+
+}
+.buttons{
+	position: relative;
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:10px;
+	left:+50px;
+
+
+}
+#clear-button{
+	width: 100px;
+	height:40px;
+	border-radius: 25px;
+	padding-top: 0px;
+
+
+}
+ #mark-button {
+	width: 100px;
+	height: 40px;
+	border-radius: 25px;
+	padding-top:0px;
+	
+
+ }
+
+ 
+ #shopping-list li{
+	position: relative;
+	left:-130px;
+	color: yellow;
+	font-weight:lighter;
+	padding-top: 30px;
+	font-size: 25px;
+	font-weight: bold;
+	
+ }
+ button {
+
+	transition: all 0.5s;
+	font-size: 17px;
+	padding:1ch 2ch;
+	color: black;
+	background-color: pink;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 2px 2px 0px hsl(0, 0%, 50%);
+		box-shadow: 2px 2px 0px hsl(0, 0%, 90%),
+		  4px 4px 0px hsl(0, 0%, 80%),
+		  6px 6px 0px hsl(0, 0%, 70%),
+		  8px 8px 0px hsl(0, 0%, 60%),
+		  10px 10px 0px hsl(0, 0%, 50%),
+		  12px 12px 0px hsl(0, 0%, 40%),
+		  14px 14px 0px hsl(0, 0%, 30%),
+		  16px 16px 0px hsl(0, 0%, 20%),
+		  18px 18px 0px hsl(0, 0%, 10%);
+	
+ }
+ button:hover{
+	background-color: hsl(0, 0%, 90%);
+	color: #fff;
+	box-shadow: none;
+ }
+	  
+	  
